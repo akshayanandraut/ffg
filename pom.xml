@@ -57,32 +57,6 @@
 
     <profiles>
         <profile>
-            <id>mysql</id>
-            <properties>
-                <database.platform>mysql</database.platform>
-            </properties>
-            <dependencies>
-                <dependency>
-                    <groupId>mysql</groupId>
-                    <artifactId>mysql-connector-java</artifactId>
-                    <scope>runtime</scope>
-                </dependency>
-            </dependencies>
-        </profile>
-        <profile>
-            <id>postgresql</id>
-            <properties>
-                <database.platform>postgresql</database.platform>
-            </properties>
-            <dependencies>
-                <dependency>
-                    <groupId>org.postgresql</groupId>
-                    <artifactId>postgresql</artifactId>
-                    <scope>runtime</scope>
-                </dependency>
-            </dependencies>
-        </profile>
-        <profile>
             <id>sql</id>
             <properties>
                 <database.platform>sqlserver</database.platform>
